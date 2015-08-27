@@ -1,0 +1,15 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+.content .field-name-field-basic-page-image {
+  float: right;
+}
+
+body {
+  background-image: url("bnb-drupal/sites/default/files/img/hanalei.jpg");
+}
+
+.submitted {
+  display: none;
+}
