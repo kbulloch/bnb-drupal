@@ -1,15 +1,42 @@
-/**
- * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
- * remove this comment and start adding your styles to this file.
- */
 .content .field-name-field-basic-page-image {
   float: right;
 }
 
 body {
-  background-image: url("bnb-drupal/sites/default/files/img/hanalei.jpg");
+  background-image: url("../../../../default/files/img/hanalei.jpg");
+  font-size: 18px;
 }
 
 .submitted {
   display: none;
+}
+
+.page-header {
+  border: none;
+  /*display: none;*/
+}
+
+.footer {
+  border: none;
+}
+
+.main-container {
+  padding: 20px;
+  line-height: 1.6em;
+}
+
+.all-container {
+  border-radius: 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(256,256,256,0.8);
+}
+
+.navbar-brand {
+  font-size: 24px;
+}
+
+.nav .leaf:hover {
+  /*text-shadow: 0 0 20px #000;*/
+  color:red;
 }
