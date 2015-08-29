@@ -1,10 +1,14 @@
-.content .field-name-field-basic-page-image {
-  float: right;
+body {
+  background-image: url("../../../../default/files/img/blue-bg.jpg");
+  font-size: 18px;
 }
 
-body {
-  background-image: url("../../../../default/files/img/hanalei.jpg");
-  font-size: 18px;
+.content .field-name-field-basic-page-image img {
+  /*float: right;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
 }
 
 .submitted {
