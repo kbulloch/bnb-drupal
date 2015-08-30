@@ -1,5 +1,5 @@
 body {
-  background-image: url("../../../../default/files/img/blue-bg.jpg");
+  background-image: url("../../../../default/files/img/blue-tile.jpg");
   font-size: 18px;
 }
 
@@ -40,7 +40,12 @@ body {
   font-size: 24px;
 }
 
-.nav .leaf:hover {
-  /*text-shadow: 0 0 20px #000;*/
-  color:red;
+.banner-image img {
+  /*position: relative;*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 2%;
 }
