@@ -121,7 +121,6 @@
       <?php print render($page['header']); ?>
     </header> <!-- /#page-header -->
 
-
     <div class="row">
       <?php print render($page['banner']); ?>
 

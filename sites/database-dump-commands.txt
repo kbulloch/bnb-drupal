@@ -1,0 +1,5 @@
+drush sql -dump --result-file > filename.sql
+
+or
+
+mysqldump -u <user> -p <dbname> > <filename.sql>

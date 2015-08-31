@@ -33,7 +33,7 @@ body {
   border-radius: 4px;
   margin-top: 1%;
   margin-bottom: 1%;
-  background: rgba(256,256,256,0.8);
+  background: rgba(256,256,256,0.6);
 }
 
 .navbar-brand {
@@ -48,4 +48,27 @@ body {
   max-width: 100%;
   height: auto;
   padding-bottom: 2%;
+}
+
+#edit-comment-body-und-0-format {
+  display: none;
+}
+
+.links .list-inline > .comment-add {
+  background:red;
+  display: none;
+}
+
+.comment-wrapper {
+  margin-bottom: 3%;
+  border-bottom: 2px solid #aaa;
+}
+
+.comment-wrapper .title {
+  display: none;
+}
+
+.field-name-comment-body {
+  padding-left: 5%;
+  padding-right: 5%;
 }
