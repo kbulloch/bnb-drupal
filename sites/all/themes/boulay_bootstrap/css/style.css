@@ -1,5 +1,6 @@
 body {
-  background-image: url("../../../../default/files/img/blue-tile.jpg");
+  background-image: url("../../../../default/files/img/beach-bg.jpg");
+  background-attachment: fixed;
   font-size: 18px;
 }
 
@@ -33,7 +34,7 @@ body {
   border-radius: 4px;
   margin-top: 1%;
   margin-bottom: 1%;
-  background: rgba(256,256,256,0.6);
+  background: rgba(256,256,256,0.8);
 }
 
 .navbar-brand {
@@ -62,13 +63,13 @@ body {
   margin-bottom: 3%;
 }
 
-.comment-wrapper .title {
+.comment-wrapper .title, .form-required {
   display: none;
 }
 
-.field-name-comment-body {
-  padding-left: 5%;
-  padding-right: 5%;
+.content .field-name-comment-body, .comment-form {
+  margin-left: 5%;
+  margin-right: 5%;
   padding-bottom: 1%;
 }
 
