@@ -54,14 +54,12 @@ body {
   display: none;
 }
 
-.links .list-inline > .comment-add {
-  background:red;
+.comment-add .active {
   display: none;
 }
 
-.comment-wrapper {
+.comment-wrapper .comment {
   margin-bottom: 3%;
-  border-bottom: 2px solid #aaa;
 }
 
 .comment-wrapper .title {
@@ -71,4 +69,9 @@ body {
 .field-name-comment-body {
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 1%;
+}
+
+.comment-form {
+  margin-bottom: 4%;
 }
