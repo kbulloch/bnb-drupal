@@ -21,9 +21,5 @@
         <footer class="signature"><?php print $signature ?></footer>
       <?php endif; ?>
     </div>
-
-    <?php if (!empty($content['links'])): ?>
-      <div class="links"><?php print render($content['links']); ?></div>
-    <?php endif; ?>
   </article><!-- /comment -->
 </div>
