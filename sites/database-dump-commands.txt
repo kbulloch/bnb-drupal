@@ -2,4 +2,4 @@ drush sql -dump --result-file > filename.sql
 
 or
 
-mysqldump -u <user> -p <dbname> > <filename.sql>
+/opt/lampp/bin/mysqldump -u <user> -p <dbname> > <filename.sql>
