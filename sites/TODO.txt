@@ -1,5 +1,4 @@
-comment author not being displayed in guestbook due to not-logged-in
-author name is unverified by drupal
+google maps API integration
 
 http://localhost/admin/structure/views/view/banner/edit
 this link is needed because of a strange error about origin of http request
