@@ -49,18 +49,21 @@ body {
   box-shadow: 0 0 20px 20px #444;
 }
 
-.comment-wrapper .comment {
+.comment-wrapper .comment,
+p:last-child {
   margin-bottom: 3%;
 }
 
-.content .field-name-comment-body, .comment-form, .contact-form {
+.content .field-name-comment-body,
+.comment-form,
+.contact-form {
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 1%;
 }
 
 .comment-form {
-  margin-bottom: 4%;
+  margin-bottom: 5%;
 }
 
 .contact-icon {
@@ -76,10 +79,6 @@ body {
 .contact-info {
   display: inline;
   text-align: center;
-}
-
-p:last-child {
-  margin-bottom: 3%;
 }
 
 div.comment-wrapper,
