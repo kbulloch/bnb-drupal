@@ -1,0 +1,107 @@
+body {
+  background-image: url(../../../../default/files/img/beach-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: 1.4em;
+}
+
+.submitted,
+.comment-wrapper .title,
+.form-required,
+.comment-add .active,
+#edit-comment-body-und-0-format {
+  display: none;
+}
+
+.page-header {
+  border: none;
+}
+
+.footer {
+  margin-right: 0;
+  padding-right: 15px;
+  border: none;
+}
+
+.main-container {
+  padding: 20px;
+  line-height: 1.6em;
+}
+
+.all-container {
+  border-radius: 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background: rgba(256,256,256,0.9);
+}
+
+.navbar-brand {
+  font-size: 26px;
+}
+
+.banner-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 4%;
+  box-shadow: 0 0 20px 20px #444;
+}
+
+.comment-wrapper .comment,
+p:last-child {
+  margin-bottom: 3%;
+}
+
+.content .field-name-comment-body,
+.comment-form,
+.contact-form {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 1%;
+}
+
+.comment-form {
+  margin-bottom: 5%;
+}
+
+.contact-icon {
+  max-height: 25px;
+  margin: 5px;
+}
+
+#contact-row {
+  margin-right: 2%;
+  text-align: center;
+}
+
+a.contact-info,
+p.contact-info,
+img.contact-info,
+a.contact-text {
+  display: inline;
+  text-align: center;
+}
+
+div.comment-wrapper,
+#block-block-3,
+.tabs--primary,
+.page-header,
+.field-type-text-with-summary {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about-img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#lily-pic {
+  margin-top: 10%;
+}

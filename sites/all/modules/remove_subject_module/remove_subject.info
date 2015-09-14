@@ -1,0 +1,5 @@
+name = Remove Subject
+description = Removes the subject line from the basic page comment form
+package = Modifications
+core = 7.x
+files[] = remove_subject.module

@@ -1,0 +1,12 @@
+google maps API integration
+
+http://localhost/admin/structure/views/view/banner/edit
+this link is needed because of a strange error about origin of http request
+
+make bg-image transparent in gimp
+
+update text copy with new version
+
+change passwords
+
+bring in google map functionality
