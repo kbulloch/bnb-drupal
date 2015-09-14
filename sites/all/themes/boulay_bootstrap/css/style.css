@@ -5,6 +5,10 @@ body {
   font-size: 20px;
 }
 
+p {
+  margin-bottom: 1.4em;
+}
+
 .submitted,
 .comment-wrapper .title,
 .form-required,
@@ -76,7 +80,10 @@ p:last-child {
   text-align: center;
 }
 
-.contact-info {
+a.contact-info,
+p.contact-info,
+img.contact-info,
+a.contact-text {
   display: inline;
   text-align: center;
 }
@@ -90,12 +97,11 @@ div.comment-wrapper,
   margin-right: 5%;
 }
 
-/*#sheri-rainbow {
-  max-width: 50%;
-  float: left;
-}*/
-
 .about-img {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+#lily-pic {
+  margin-top: 10%;
 }
