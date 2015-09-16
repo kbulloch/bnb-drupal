@@ -612,7 +612,6 @@ h1#page-title {
   line-height: 1.6;
 }
 .meta {
-  display: none;
   font-size: 0.857em;
   color: #68696b;
   margin-bottom: -5px;
@@ -1051,7 +1050,6 @@ div.messages {
 /* -------------- Breadcrumbs   -------------- */
 
 .breadcrumb {
-  display: none;
   font-size: 0.929em;
 }
 
