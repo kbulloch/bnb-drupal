@@ -2,7 +2,7 @@ body {
   background-image: url(../../../../default/files/img/bg7-light.jpg);
   background-attachment: fixed;
   background-size: cover;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p {
@@ -58,11 +58,16 @@ p:last-child {
   margin-bottom: 3%;
 }
 
+div.comment-wrapper,
+#block-block-3,
+.tabs--primary,
+.page-header,
+.field-type-text-with-summary,
 .content .field-name-comment-body,
 .comment-form,
 .contact-form {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
   padding-bottom: 1%;
 }
 
@@ -86,15 +91,6 @@ img.contact-info,
 a.contact-text {
   display: inline;
   text-align: center;
-}
-
-div.comment-wrapper,
-#block-block-3,
-.tabs--primary,
-.page-header,
-.field-type-text-with-summary {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .about-img {
