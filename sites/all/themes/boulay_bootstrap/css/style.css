@@ -49,13 +49,14 @@ p {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-  margin-bottom: 4%;
+  margin-bottom: 6%;
   box-shadow: 0 0 20px 20px #444;
 }
 
 @media(max-width:1200px) {
     div.banner-image {
-        margin: 0 4%;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 
