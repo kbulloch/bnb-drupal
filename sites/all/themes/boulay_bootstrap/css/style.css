@@ -53,6 +53,12 @@ p {
   box-shadow: 0 0 20px 20px #444;
 }
 
+@media(max-width:1200px) {
+    div.banner-image {
+        margin: 0 4%;
+    }
+}
+
 .comment-wrapper .comment,
 p:last-child {
   margin-bottom: 3%;
