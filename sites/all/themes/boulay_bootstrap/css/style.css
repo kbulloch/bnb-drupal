@@ -50,7 +50,25 @@ p {
   max-width: 100%;
   height: auto;
   margin-bottom: 6%;
-  box-shadow: 0 0 20px 20px #444;
+  box-shadow: 0 0 13px 13px #444;
+}
+
+@media(min-width:768px) {
+    .banner-image img {
+        box-shadow: 0 0 15px 15px #444;
+    }
+}
+
+@media(min-width:992px) {
+    .banner-image img {
+        box-shadow: 0 0 17px 17px #444;
+    }
+}
+
+@media(min-width:1200px) {
+    .banner-image img {
+        box-shadow: 0 0 20px 20px #444;
+    }
 }
 
 @media(max-width:1200px) {
