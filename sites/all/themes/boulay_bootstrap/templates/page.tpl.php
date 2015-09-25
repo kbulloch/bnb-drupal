@@ -166,3 +166,6 @@
     <?php print render($page['footer']); ?>
   </footer>
 </div>
+<div class="hidden">
+    <?php print render($page['seo']) ?>
+</div>
